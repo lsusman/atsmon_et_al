@@ -1,6 +1,4 @@
-function [slope] = compute_VF(X,id,dt)
-
-plotall = 0;
+function [slope] = compute_and_plot_VF(X,id,plotall,dt)
 
 % colorpalette;
 colors = {[110 180 200]/255;
